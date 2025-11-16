@@ -44,7 +44,7 @@
       color: var(--purple);
     }
 
-    /* Blur + slide-in animation, similar to your React version */
+    /* Blur + slide-in animation */
     .blur-word {
       display: inline-block;
       filter: blur(10px);
@@ -95,12 +95,10 @@
 <body>
   <main>
     <h1 class="line">
-      <!-- Each word gets the blur-word class and a different delay -->
       <span class="blur-word" style="animation-delay: 0s;">I</span>&nbsp;
       <span class="blur-word" style="animation-delay: 0.12s;">love</span>&nbsp;
       <span class="blur-word" style="animation-delay: 0.24s;">you</span>&nbsp;
-      <span class="blur-word purple" style="animation-delay: 0.36s;">Azh</span>
-      <span class="blur-word" style="animation-delay: 0.48s;">.</span>
+      <span class="blur-word purple" style="animation-delay: 0.36s;">Azh</span><span class="blur-word" style="animation-delay: 0.48s;">.</span>
     </h1>
   </main>
 
